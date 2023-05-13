@@ -1,0 +1,25 @@
+{
+  "name": "do-command",
+  "version": "1.0.0",
+  "description": "Утилита для выполненя команд. Позволяет легко работать с ffmpeg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albinaaaaa/do-command.git"
+  },
+  "author": "Albina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albinaaaaa/do-command/issues"
+  },
+  "homepage": "https://github.com/Albinaaaaa/do-command#readme",
+  "dependencies": {
+    "inquirer": "^9.2.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
