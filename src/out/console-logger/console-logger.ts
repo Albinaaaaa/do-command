@@ -1,7 +1,6 @@
-import { Console } from "console";
-import { ISreamLogger } from "../../core/handlers/stream-logger.interface";
+import { IStreamLogger } from "../../core/handlers/stream-logger.interface";
 // singleton
-export class ConsoleLogger implements ISreamLogger {
+export class ConsoleLogger implements IStreamLogger {
     private static logger: ConsoleLogger;
     public static getInstance() {
         if (!ConsoleLogger.logger) {

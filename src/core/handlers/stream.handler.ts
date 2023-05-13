@@ -1,9 +1,9 @@
 import { ChildProcessWithoutNullStreams } from "child_process";
-import { ISreamLogger } from "./stream-logger.interface";
+import { IStreamLogger } from "./stream-logger.interface";
 
 // proxy pattern
 export class StreamHandler {
-    constructor(private logger: ISreamLogger) { }
+    constructor(private logger: IStreamLogger) { }
     
     processOutput(stream: ChildProcessWithoutNullStreams) {
         stream.stdout.on('data', (data: any) => {
